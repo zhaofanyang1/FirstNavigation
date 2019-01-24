@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.login.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/id_shut"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_30"
+        android:src="@mipmap/shut"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="@dimen/dp_348"
+        tools:layout_editor_absoluteY="@dimen/dp_16" />
+
+    <ImageView
+        android:id="@+id/id_bigheads"
+        android:layout_width="@dimen/dp_130"
+        android:layout_height="@dimen/dp_130"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_144"
+        android:src="@mipmap/bigheads"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="@dimen/dp_128"
+        tools:layout_editor_absoluteY="@dimen/dp_56" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="@dimen/dp_130"
+        android:layout_height="@dimen/dp_130"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_144"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text_shangchuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_270"
+        android:text="上传头像"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/dp_28" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_shangchuan"
+        android:hint="   请输入用户名" />
+
+    <ImageView
+        android:id="@+id/wancheng"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_90"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/dp_120"
+        android:src="@mipmap/wancheng"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="@dimen/dp_274" />
+
+    <TextView
+        android:id="@+id/tiaoguo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_81"
+        android:text="跳过"
+        android:textColor="@color/colorBlue"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="@dimen/dp_178"
+        tools:layout_editor_absoluteY="@dimen/dp_341" />
+</RelativeLayout>

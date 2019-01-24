@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">第一通航</string>
+    <string name="sousuo">搜索</string>
+    <string name="huanying">欢迎登陆第一通航</string>
+    <string name="Pleaseenteryourmobilephonenumber">       请输入手机号</string>
+    <!--<string name="sousuo">搜索</string>
+    <string name="sousuo">搜索</string>
+    <string name="sousuo">搜索</string>
+    <string name="sousuo">搜索</string>-->
+
+    <string name="progressbar">客官您请稍等(￣▽￣)正在加载...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
